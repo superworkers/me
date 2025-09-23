@@ -1,0 +1,29 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  gap: 4rem;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+svg {
+  display: none;
+  height: 9rem;
+  pointer-events: none;
+  transform: scale(2);
+}
+
+.active {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid currentColor;
+}
